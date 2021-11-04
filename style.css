@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+
+.Header {
+    background-color: #c9d1d3;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
