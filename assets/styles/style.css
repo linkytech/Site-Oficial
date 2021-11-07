@@ -1,11 +1,24 @@
+/* DEFAULT */
+
 * {
     margin: 0;
+    padding: 0;
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header, body, footer {
+    height: 120px;
+    width: 100%;
+    background-color: #39556D;
 }
 
 
+/* HEADER */
+
 .Header {
-    background-color: #39556d;
+    max-width: 1920px;
+    margin: auto;
     height: 120px;
     width: 100%;
     display: flex;
@@ -35,15 +48,32 @@
     color: #fff;
 }
 
-
-
-
-
-
-/* body */
+/* BODY */
 
 .Container {
     background-color: #c9d1d3;
     width: 100%;
     height: 100vh;
+}
+
+.Content {
+    max-width: 1920px;
+    margin: auto;
+}
+
+/* FOOTER */
+
+.Footer {
+    height: 120px;
+    max-width: 1920px;
+    background-color: #39556D;
+    display: flex;
+    margin: auto;
+}
+
+.Left, .Center, .Right {
+    flex: 1;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
 }
