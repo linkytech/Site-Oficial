@@ -11,7 +11,7 @@
         }
         else {
             menu.classList.remove('MenuFixo');
-            imagem.setAttribute('src', 'assets/images/logopreto.svg');
+            imagem.setAttribute('src', 'assets/images/logopreto.png');
         }
     });
 })();

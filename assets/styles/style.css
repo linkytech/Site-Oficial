@@ -107,3 +107,8 @@ header, footer {
     font-size: 25px;
     text-align: center;
 }
+
+.Right a{
+    text-decoration: none;
+    color: #FFF;
+}
