@@ -25,15 +25,17 @@ header, footer {
 }
 
 .Header img {
-    padding-left: 150px;
+    padding-left: 200px;
+    height: 120px;
 }
 
 .Header ul {
     list-style: none;
     justify-content: center;
     align-content: center;
-    margin-left: 450px;
-    width: 750px;
+    margin-left: 150px;
+    width: 850px;
+    height: 120px;
 }
 
 .Header li {
@@ -75,7 +77,7 @@ header, footer {
 
 .text-content {
     flex: 1;
-
+    display: flex;
 }
 
 .img-content {
@@ -111,7 +113,7 @@ header, footer {
 /* FOOTER */
 
 .Footer {
-    height: 120px;
+    height: 300px;
     max-width: 1920px;
     background-color: #120e1d;
     display: flex;
